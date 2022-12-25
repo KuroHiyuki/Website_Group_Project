@@ -1,60 +1,175 @@
-body {
-    font-family: "Lato", sans-serif;
-  }
+/* Phần này của Quỳnh nè */
+.image-1 {
+  border-radius: 15px;
+  width: 270px;
+}
+
+.image-2 {
+  border-radius: 15px;
+  width: 270px;
+}
+
+.p {
+  color: rgb(166, 171, 176);
+}
+
+.btn {
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  border: unset;
+  color: rgb(75, 117, 224);
+  background-color: rgb(220, 227, 249);
+
+}
+
+.pic {
+  width: 20px;
+  height: 25px;
+  border-radius: 100%;
+}
+
+.bg-up.bg-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head span {
+  color: rgb(57, 119, 227);
+}
+
+.span-a {
+  color: rgb(57, 119, 227);
+  position: absolute;
+  width: 20%;
+  height: 20px;
+  right: 530;
+  top: 8px;
+  text-decoration-line: underline;
+
+}
+
+.events.head {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bg-up {
+  display: inline-block;
+}
+
+.pic-a {
+  position: relative;
+}
+
+.pic-a.zd-1 {
+  z-index: 3;
+}
+
+.pic-a.zd-2 {
+  z-index: 2;
+  left: -7px;
+}
+
+.pic-a.zd-3 {
+  z-index: 1;
+  left: -14px;
+}
+
+.pic-zd {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.bg-img .item .text span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.img-b {
+  margin-top: 15px;
+}
+
+.bg-up {
+  display: flex;
+  width: 55%;
+  margin-right: 10px;
+}
+
+.bg-img {
+  margin-right: 37px;
+}
+
+.pr{
+margin-top: 5px;
+/* Phần này của Huyền nè*/
+}
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+.song {
+display: flex;
+margin: 10px;
+}
+.img-music {
+margin: 10px;
+/* padding-left: 50; */
+}
+.bold-title
+{
+  font-weight: bold;
+}
+li{
+  display: inline;
+} 
+.title-music {
+width: 20%;
+}
+.iconA ul li{
+  padding: 10px 3px 0px 8px;
+  margin:5px;
+}
+.iconA ul{
+  width: 100%;
+}
+.icon-color{
+  color: #565554;
+  font-size: 90%;
+}
+.song2
+{
+display: flex;
+margin: 10px;  
+}
+.big-title{
+  position: relative;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.span-view{
+  width:30%;
+  height: 100%;
+  padding:2% 0 0 9%;
+  text-decoration-line: underline;
+  color:dodgerblue
+}
+.big-title h1{
+  width:70%;
+  height: 100%;
+}
+.list-firt-song2
+{
+  float:left;
+}
+.list-second-song2
+{
+  float:right;
   
-  .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-  }
-  
-  .openbtn:hover {
-    background-color: #444;
-  }
-  
-  #main {
-    transition: margin-left .5s;
-    padding: 16px;
-  }
-  
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+}
+
