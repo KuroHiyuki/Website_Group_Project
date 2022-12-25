@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+        <!-- <script src="https://kit.fontawesome.com/7ac03347f8.js" crossorigin="anonymous"></script> -->
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+        <style>
+        .container, .container1{
+            /* width: 1000px; */
+            /* padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto; */
+            /* text-align: center; */
+        }
+        .body, .body1{
+                margin: 0;
+                font-family:"Open Sans",sans-serif;
+                font-size: 18px;
+                font-weight: 15px;
+                margin-top: 20px;
+                text-align: left;
+                width: 1000px;
+        }
+        .top-charts, .top-charts1{
+            width: 1000px;
+            padding: 0px;
+            margin: auto;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.25
+        }
+        .cols{
+            /* float: left; */
+            /* box-sizing: border-box; */
+            display: inline-block;
+            /* text-align: center;  */
+            width: 100%;
+            margin: auto;
+        }
+        .cols1{
+            display: inline-block;
+            text-align: center; 
+            width: 100%;
+            /* padding: 10px; */
+        }
+        /* .infor-music, .infor-music1{
+            margin: 5px;
+            width: 16%;
+            margin: 1%;
+        } */
+        .infor-music{
+            position: relative;
+            width: 16%;
+            padding: 10px;
+        }
+        .infor-music1 {
+            width: 16%;
+            padding: 17px;
+        }
+        .music-image{
+            width: 160px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .music-image1{
+            width: 160px;
+            border-radius: 50%;
+        }
+        .music-name, .music-singer, .music-singer1{
+            font-size: 12px;
+            margin: 5px;
+            color: #8c9095;
+        }
+        .music-singer1{
+            font-size: 12px;
+            margin: 5px;
+            color: #323334;
+        }
+
+        .music-name{
+            font-weight: bolder;
+            color: black;
+        }
+        i{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            size: 50px;
+        }
+
+        .view-all{
+            text-align:right;
+            padding: 0 0 0.125rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: none;
+            font-size: .8125rem;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: relative;
+            border-radius: 0;
+            color: #196eed;
+        }
+
+        .swiper-pagination{
+            position: relative;
+            width: 1000px;
+            text-align: center;
+        }
+        .swiper-pagination-bullet{
+            position: absolute;
+            display: inline-block;
+            text-align: center;
+            width: 27px;
+            height: 5px;
+            background-color: #196EED;
+        }
+        .swiper-pagination-bullet1{
+            position: absolute;
+            display: inline-block;
+            /* float: left; */
+            width: 27px;
+            height: 5px;
+            margin-left: 70px;
+            text-align: center;
+            background-color: #D1E2FB;
+        }
+
+
+        </style>
+    </head>
+    <body>
+        <form action="" class="container" style="position:relative;">
+
+            <div class="body">
+
+                <div class="top-charts">
+                    <div style="float: left;">Top
+                        <span style="color: #196eed;"> Charts</span>
+                        <!-- <span><a href="https://mp3.zing.vn/">View All</a></span> -->
+                    </div>
+                    
+                    <div class="view-all"><a href="https://mp3.zing.vn/">View All</a></div>
+
+                    <br style="clear: both;">
+                </div>
+
+                <div class="cols">
+                    <div class="cols infor-music">
+
+                        <!-- <span class="badge rounded-pill bg-info"><i class="fa-brands fa-gratipay" style="color: red; size: 50px;"></i></span> -->
+
+                        <span><i class="fa-brands fa-gratipay" style="color: red; "></i></span>
+                        <img class="music-image" src="images/1.jpg" alt="pic1"> 
+                        <div class="music-name">I love you mummy</div>
+                        <div class="music-singer">Arebica Luna</div>
+                    </div>
+                    <div class="cols infor-music">
+                        <span><i class="fa-solid fa-crown" style="color: aqua;"></i></span>
+
+                        <img  class="music-image" src="images/2.jpg" alt="pic2"><br>
+                        <div class="music-name">Shack your butty</div>
+                        <div class="music-singer">Gerrina Linda</div>
+                    </div>
+                    <div class="cols infor-music">
+
+                        <img  class="music-image" src="images/3.jpg" alt="pic3">
+                        <div class="music-name">Do it your way(Female)</div>
+                        <div class="music-singer">Zunira Wily, Nutty Nina</div>
+                    </div>
+                    <div class="cols infor-music">
+                        <span><i class="fa-brands fa-gratipay" style="color: red;"></i></span>
+                        <span><i class="fa-solid fa-crown" style="color: aqua; left: 45px;"></i></span>
+
+                        <img  class="music-image" src="images/4.jpg" alt="pic4">
+                        <div class="music-name">Say yes</div>
+                        <div class="music-singer">Johnny Marro</div>
+                    </div>
+                    <div class="cols infor-music">
+                        <span><i class="fa-solid fa-crown" style="color: aqua;"></i></span>
+
+                        <img  class="music-image" src="images/5.jpg" alt="pic5">
+                        <div class="music-name">Where is your letter</div>
+                        <div class="music-singer">Jina Moore, Lenisa Gory</div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <form action="" class="container1" style="position:relative;">
+            <div class="body1">
+
+                <div class="top-charts1">
+                    <div style="float: left;">Featured
+                        <span style="color: #196eed;"> Artists</span>
+                    </div>
+                    <div class="view-all"><a href="https://mp3.zing.vn/">View All</a></div>
+                    <br style="clear: both;">
+                </div>
+
+                <div class="cols1">
+                    <div class="cols infor-music1">
+                        <img class="music-image1" src="images/1.jpg" alt="pic1"> 
+                        <!-- <div class="music-name1">I love you mummy</div> -->
+                        <div class="music-singer1">Arebica Luna</div>
+                    </div>
+                    <div class="cols infor-music1">
+                        <img  class="music-image1" src="images/2.jpg" alt="pic2"><br>
+                        <!-- <div class="music-name1">Shack your butty</div> -->
+                        <div class="music-singer1">Gerrina Linda</div>
+                    </div>
+                    <div class="cols infor-music1">
+                        <img  class="music-image1" src="images/3.jpg" alt="pic3">
+                        <!-- <div class="music-name1">Do it your way(Female)</div> -->
+                        <div class="music-singer1">Zunira Wily, Nutty Nina</div>
+                    </div>
+                    <div class="cols infor-music1">
+                        <img  class="music-image1" src="images/4.jpg" alt="pic4">
+                        <!-- <div class="music-name1">Say yes</div> -->
+                        <div class="music-singer1">Johnny Marro</div>
+                    </div>
+                    <div class="cols infor-music1">
+                        <img  class="music-image1" src="images/5.jpg" alt="pic5">
+                        <!-- <div class="music-name1">Where is your letter</div> -->
+                        <div class="music-singer1">Jina Moore, Lenisa Gory</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-pagination">
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet1" style="margin-left: 35px;"></span>
+                <span class="swiper-pagination-bullet1"></span>
+            </div>
+        </form>
+        
+        
+    </body>
+</html>
+
+
+
