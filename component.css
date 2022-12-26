@@ -75,6 +75,7 @@ section#body header {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0, white 240px, white 290px), url("images/home.jpg") no-repeat;
   box-sizing: border-box; }
   section#body header .btn .openbtn {
+    padding: 0.5rem 5px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -85,12 +86,12 @@ section#body header {
     color: white;
     display: flex;
     height: fit-content;
-    width: 90%;
+    width: 95%;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
-    margin: 1rem auto 0 auto; }
+    margin: 0.5rem auto 0 auto; }
     section#body header .nvarbar .left {
       display: flex;
       align-items: center; }
@@ -144,7 +145,143 @@ section#body footer {
       width: 13rem; }
       section#body footer .btn .ggplay i,
       section#body footer .btn .appstore i {
+        font-size: 20px;
         margin-right: 10px; }
+    section#body footer .btn .appstore i {
+      color: #196eed;
+      background-color: white;
+      border-radius: 50%; }
+section#body .top-page {
+  width: fit-content;
+  margin: 0 auto; }
+  section#body .top-page .body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 20px;
+    text-align: left;
+    width: 1000px; }
+    section#body .top-page .body .top-charts {
+      width: 1000px;
+      padding: 0px;
+      margin: auto;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.25; }
+      section#body .top-page .body .top-charts .view-all {
+        text-align: right;
+        padding: 0 0 0.125rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        border: none;
+        font-size: 0.8125rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        border-radius: 0;
+        color: #196eed; }
+        section#body .top-page .body .top-charts .view-all a {
+          text-decoration: none;
+          padding-bottom: 5px;
+          border-bottom: 2px solid;
+          color: #196eed; }
+    section#body .top-page .body .cols {
+      display: inline-block;
+      width: 100%;
+      margin: auto; }
+      section#body .top-page .body .cols .infor-music {
+        position: relative;
+        width: 16%;
+        padding: 10px; }
+        section#body .top-page .body .cols .infor-music i {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          size: 50px; }
+        section#body .top-page .body .cols .infor-music .music-image {
+          width: 160px;
+          border-radius: 10px;
+          text-align: center; }
+        section#body .top-page .body .cols .infor-music .music-name {
+          font-size: 12px;
+          margin: 5px;
+          color: #8c9095;
+          font-weight: bolder;
+          color: black; }
+        section#body .top-page .body .cols .infor-music .music-singer {
+          font-size: 12px;
+          margin: 5px;
+          color: #8c9095; }
+section#body .feature-artists {
+  width: fit-content;
+  margin: 0 auto; }
+  section#body .feature-artists .body1 {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 15px;
+    margin-top: 20px;
+    text-align: left;
+    width: 1000px; }
+    section#body .feature-artists .body1 .top-charts1 {
+      width: 1000px;
+      padding: 0px;
+      margin: auto;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.25; }
+      section#body .feature-artists .body1 .top-charts1 .view-all {
+        text-align: right;
+        padding: 0 0 0.125rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        border: none;
+        font-size: 0.8125rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        position: relative;
+        border-radius: 0;
+        color: #196eed; }
+        section#body .feature-artists .body1 .top-charts1 .view-all a {
+          text-decoration: none;
+          padding-bottom: 5px;
+          border-bottom: 2px solid;
+          color: #196eed; }
+    section#body .feature-artists .body1 .cols1 {
+      display: inline-block;
+      text-align: center;
+      width: 100%; }
+      section#body .feature-artists .body1 .cols1 .infor-music1 {
+        width: 16%;
+        padding: 17px; }
+        section#body .feature-artists .body1 .cols1 .infor-music1 .music-image1 {
+          width: 160px;
+          border-radius: 50%; }
+        section#body .feature-artists .body1 .cols1 .infor-music1 .music-singer1 {
+          font-size: 12px;
+          margin: 5px;
+          color: #323334; }
+  section#body .feature-artists .swiper-pagination {
+    position: relative;
+    width: 1000px;
+    text-align: center; }
+    section#body .feature-artists .swiper-pagination .swiper-pagination-bullet {
+      position: absolute;
+      display: inline-block;
+      text-align: center;
+      width: 27px;
+      height: 5px;
+      background-color: #196eed; }
+    section#body .feature-artists .swiper-pagination .swiper-pagination-bullet1 {
+      position: absolute;
+      display: inline-block;
+      /* float: left; */
+      width: 27px;
+      height: 5px;
+      margin-left: 70px;
+      text-align: center;
+      background-color: #d1e2fb; }
 
 #main {
   transition: margin-left 0.5s; }
