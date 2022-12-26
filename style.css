@@ -44,8 +44,8 @@
   position: absolute;
   width: 20%;
   height: 20px;
-  right: 530;
-  top: 8px;
+  left: 450px;
+  top: 312px;
   text-decoration-line: underline;
 
 }
@@ -53,6 +53,10 @@
 .events.head {
   position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.head{
   display: flex;
   flex-direction: row;
 }
@@ -153,9 +157,9 @@ margin: 10px;
   flex-direction: row;
 }
 .span-view{
-  width:30%;
+  width:10%;
   height: 100%;
-  padding:2% 0 0 9%;
+  padding:2% 0 0 10%;
   text-decoration-line: underline;
   color:dodgerblue
 }
@@ -163,15 +167,40 @@ margin: 10px;
   width:70%;
   height: 100%;
 }
-.list-firt-song2
+.head{
+  margin: 5px 0px 20px 2px;
+}
+.left-event
+{width:50%;
+}
+.list-song1
 {
-  float:left;
+  width:50%;
+}
+.middle-page
+{
+  display: flex;
+}
+.top-alb
+{
+  display: flex;
+  box-sizing: border-box;
+}
+.list-first-song2
+{width: 500px;
+  height:200px;
 }
 .list-second-song2
 {
-  float:right;
-  
+  width: 500px;
+  height:200px;
+  padding: 0% 0 30% 30%;
 }
+.position-icon
+{
+  letter-spacing: 5px;
+}
+=======
 /* Phần này của Trang */
 .body, .body1{
   margin: 0;
@@ -286,3 +315,4 @@ margin-left: 70px;
 text-align: center;
 background-color: #D1E2FB;
 }
+
