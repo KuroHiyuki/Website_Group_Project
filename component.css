@@ -75,6 +75,7 @@ section#body header {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0, white 240px, white 290px), url("images/home.jpg") no-repeat;
   box-sizing: border-box; }
   section#body header .btn .openbtn {
+    padding: 0.5rem 5px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -85,12 +86,12 @@ section#body header {
     color: white;
     display: flex;
     height: fit-content;
-    width: 90%;
+    width: 95%;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
     box-sizing: border-box;
-    margin: 1rem auto 0 auto; }
+    margin: 0.5rem auto 0 auto; }
     section#body header .nvarbar .left {
       display: flex;
       align-items: center; }
@@ -144,7 +145,12 @@ section#body footer {
       width: 13rem; }
       section#body footer .btn .ggplay i,
       section#body footer .btn .appstore i {
+        font-size: 20px;
         margin-right: 10px; }
+    section#body footer .btn .appstore i {
+      color: #196eed;
+      background-color: white;
+      border-radius: 50%; }
 section#body .top-page {
   width: fit-content;
   margin: 0 auto; }
