@@ -175,6 +175,11 @@ section#body .top-page {
         position: relative;
         border-radius: 0;
         color: #196eed; }
+        section#body .top-page .body .top-charts .view-all a {
+          text-decoration: none;
+          padding-bottom: 5px;
+          border-bottom: 2px solid;
+          color: #196eed; }
     section#body .top-page .body .cols {
       display: inline-block;
       width: 100%;
@@ -207,7 +212,7 @@ section#body .feature-artists {
   margin: 0 auto; }
   section#body .feature-artists .body1 {
     margin: 0;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 15px;
     margin-top: 20px;
@@ -217,7 +222,7 @@ section#body .feature-artists {
       width: 1000px;
       padding: 0px;
       margin: auto;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: "Courier New", Courier, monospace;
       font-weight: 700;
       font-size: 26px;
       line-height: 1.25; }
@@ -227,11 +232,16 @@ section#body .feature-artists {
         font-weight: 600;
         text-transform: uppercase;
         border: none;
-        font-size: .8125rem;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.8125rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         position: relative;
         border-radius: 0;
         color: #196eed; }
+        section#body .feature-artists .body1 .top-charts1 .view-all a {
+          text-decoration: none;
+          padding-bottom: 5px;
+          border-bottom: 2px solid;
+          color: #196eed; }
     section#body .feature-artists .body1 .cols1 {
       display: inline-block;
       text-align: center;
@@ -256,7 +266,7 @@ section#body .feature-artists {
       text-align: center;
       width: 27px;
       height: 5px;
-      background-color: #196EED; }
+      background-color: #196eed; }
     section#body .feature-artists .swiper-pagination .swiper-pagination-bullet1 {
       position: absolute;
       display: inline-block;
@@ -265,7 +275,7 @@ section#body .feature-artists {
       height: 5px;
       margin-left: 70px;
       text-align: center;
-      background-color: #D1E2FB; }
+      background-color: #d1e2fb; }
 
 #main {
   transition: margin-left 0.5s; }
