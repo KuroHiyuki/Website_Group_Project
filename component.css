@@ -295,7 +295,8 @@ section#body .main {
   section#body .main .middle-page {
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin: 2rem 0; }
     section#body .main .middle-page .left-events {
       width: 60%; }
       section#body .main .middle-page .left-events .tittle {
@@ -425,7 +426,8 @@ section#body .main {
   section#body .main .top-albums {
     display: flex;
     width: 100%;
-    flex-direction: column; }
+    flex-direction: column;
+    margin: 2rem 0; }
     section#body .main .top-albums .title {
       display: flex;
       flex-direction: column; }
