@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="component.css">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-        <!-- <script src="https://kit.fontawesome.com/7ac03347f8.js" crossorigin="anonymous"></script> -->
-        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <!-- <script src="https://kit.fontawesome.com/7ac03347f8.js" crossorigin="anonymous"></script> -->
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <title>Listen App</title>
 </head>
 
@@ -32,21 +32,25 @@
         <div class="under"></div>
         <div class="btn"><button><i class="fa-solid fa-music"></i>Add Music</button></div>
     </div>
-    <section id="body">
-        <header>
-            <div id="main" class="btn">
-                <button class="openbtn" onclick="openNav()">☰</button>
-            </div>
+    <header>
+        <div id="main" class="btn">
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+        <div id="nvarbar">
             <div class="nvarbar">
                 <div class="left">
-                    
-                    <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Type anything to get result..." value="Type anything to get result..."></div>
+                    <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text"
+                            placeholder="Type anything to get result..." value="Type anything to get result..."></div>
                 </div>
                 <div class="right">
                     <div class="language"><i class="fa-solid fa-earth-americas"></i>Language</div>
                     <div class="user"><img src="images/thumb.jpg" alt="lỗi">Androws</div>
                 </div>
-            </header>
+            </div>
+        </div>
+    </header>
+    <section id="body">
+        <div class="main">
             <div class="top-page">
                 <div class="body">
                     <div class="top-charts">
@@ -54,47 +58,52 @@
                             <span style="color: #196eed;"> Charts</span>
                             <!-- <span><a href="https://mp3.zing.vn/">View All</a></span> -->
                         </div>
-                        
+
                         <div class="view-all"><a href="https://mp3.zing.vn/">View All</a></div>
-    
+
                         <br style="clear: both;">
                     </div>
-    
+
                     <div class="cols">
                         <div class="cols infor-music">
-    
+
                             <!-- <span class="badge rounded-pill bg-info"><i class="fa-brands fa-gratipay" style="color: red; size: 50px;"></i></span> -->
-    
-                            <span><i class="fa-solid fa-heart" style="color: white; background:red; border-radius:40px;font-size: 13px; padding: 4px"></i></span>
-                            <img class="music-image" src="images/1.jpg" alt="pic1"> 
+
+                            <span><i class="fa-solid fa-heart"
+                                    style="color: white; background:red; border-radius:40px;font-size: 13px; padding: 4px"></i></span>
+                            <img class="music-image" src="images/1.jpg" alt="pic1">
                             <div class="music-name">I love you mummy</div>
                             <div class="music-singer">Arebica Luna</div>
                         </div>
                         <div class="cols infor-music">
-                            <span><i class="fa-solid fa-crown" style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i></span>
-    
-                            <img  class="music-image" src="images/2.jpg" alt="pic2"><br>
+                            <span><i class="fa-solid fa-crown"
+                                    style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i></span>
+
+                            <img class="music-image" src="images/2.jpg" alt="pic2"><br>
                             <div class="music-name">Shack your butty</div>
                             <div class="music-singer">Gerrina Linda</div>
                         </div>
                         <div class="cols infor-music">
-    
-                            <img  class="music-image" src="images/3.jpg" alt="pic3">
+
+                            <img class="music-image" src="images/3.jpg" alt="pic3">
                             <div class="music-name">Do it your way (Female)</div>
                             <div class="music-singer">Zunira Wily, Nutty Nina</div>
                         </div>
                         <div class="cols infor-music">
-                            <span><i class="fa-solid fa-heart" style="color: white; background:red; border-radius:40px;font-size: 13px; padding: 4px"></i></span>
-                            <span><i class="fa-solid fa-crown" style="background-color: aqua; left: 47px; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i></span>
-    
-                            <img  class="music-image" src="images/4.jpg" alt="pic4">
+                            <span><i class="fa-solid fa-heart"
+                                    style="color: white; background:red; border-radius:40px;font-size: 13px; padding: 4px"></i></span>
+                            <span><i class="fa-solid fa-crown"
+                                    style="background-color: aqua; left: 47px; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i></span>
+
+                            <img class="music-image" src="images/4.jpg" alt="pic4">
                             <div class="music-name">Say yes</div>
                             <div class="music-singer">Johnny Marro</div>
                         </div>
                         <div class="cols infor-music">
-                            <span><i class="fa-solid fa-crown" style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i></span>
-    
-                            <img  class="music-image" src="images/5.jpg" alt="pic5">
+                            <span><i class="fa-solid fa-crown"
+                                    style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i></span>
+
+                            <img class="music-image" src="images/5.jpg" alt="pic5">
                             <div class="music-name">Where is your letter</div>
                             <div class="music-singer">Jina Moore, Lenisa Gory</div>
                         </div>
@@ -102,174 +111,351 @@
                 </div>
             </div>
             <div class="middle-page">
-                <div class="left-event">
-                    <div class="events">
-                        <div class="head">
-                            <h1>Upcoming <span>Events</span></h1>
-                            <span class="span-a">
-                                <h4>EXPLORE MORE</h4>
-                            </span>
+                <div class="left-events">
+                    <div class="tittle">
+                        <div class="upcoming-events">
+                            Upcoming <span> Events</span>
                         </div>
-                        
-                        <div class="bg-up">
-                            <div class="bg-img">
-                                <div class="item">
-                                    <div class="img-a">
-                                        <img class="image-1" src="images/bg-2.jpg" alt="Not found">
-                                    </div>
-                                    <div class="text">
-                                        <p class="p"><i class="fa-solid fa-location-dot"></i> 258 Goff Avenue, MI-USA</p>
-                                        <span>New year 1st night with BendiQ Band</span>
-                                    </div>
-                                    <div class="img-b">
-                                        <div class="pic-zd">
-                                            <div class="pic-a zd-1">
-                                                <img class="pic" src="images/thumb-5.jpg" alt="Not found">
-                                            </div>
-                                            <div class="pic-a zd-2">
-                                                <img class="pic" src="images/thumb-4.jpg" alt="Not found">
-                                            </div>
-                                            <div class="pic-a zd-3">
-                                                <img class="pic" src="images/thumb-3.jpg" alt="Not found">
-                                            </div>
-                                            <p class="pr">24+</p>
-                                            <div class="img-btn">
-                                                <button class="btn" style="right: 960px; position: absolute;">Join Event</button>
-                                            </div>
-                                        </div>
-                
-                                    </div>
+                        <div class="explore-more">
+                            <a href="#">EXPLORE MORE</a>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <div class="cols">
+                            <img src="images/bg-2.jpg" alt="Not found">
+                            <div class="info-events">
+                                <div class="location-event"><i class="fa-solid fa-location-dot"></i> 258 Goff Avenue,
+                                    MI-USA
+                                </div>
+                                <div class="Slogan">New year 1st night with BendiQ Band</div>
+                            </div>
+                            <div class="participant-events">
+                                <div class="image-participant">
+                                    <img class="pic" src="images/thumb-5.jpg" alt="Not found">
+                                    <img class="pic a" src="images/thumb-4.jpg" alt="Not found">
+                                    <img class="pic b" src="images/thumb-3.jpg" alt="Not found">
+                                    <div class="count-events">24+</div>
+                                </div>
+                                <div class="btn">
+                                    <button>Join Event</button>
                                 </div>
                             </div>
-                
-                            <div class="bg-up">
-                                <div class="bg-img">
-                                    <div class="item">
-                                        <div class="img-a">
-                                            <img class="image-2" src="images/bg3.jpg" alt="Not found">
-                                        </div>
-                                        <div class="text">
-                                            <p class="p"><i class="fa-solid fa-location-dot"></i> 2105 Badger Pond Lane, FL - USA</p>
-                                            <span>Varida Meronny music band</span>
-                                        </div>
-                                        <div class="img-b">
-                                            <div class="pic-zd">
-                                                <div class="pic-a zd-1">
-                                                    <img class="pic" src="images/thumb-3.jpg" alt="Not found">
-                                                </div>
-                                                <div class="pic-a zd-2">
-                                                    <img class="pic" src="images/thumb-2.jpg" alt="Not found">
-                                                </div>
-                                                <div class="pic-a zd-3">
-                                                    <img class="pic" src="images/thumb.jpg" alt="Not found">
-                                                </div>
-                                                <p class="pr">40+</p>
-                                                <div class="img-btn">
-                                                    <button class="btn" style="right: 640px; position: absolute;">Join Event</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    </div>
+                        </div>
+                        <div class="cols">
+                            <img src="images/bg3.jpg" alt="Not found">
+                            <div class="info-events">
+                                <div class="location-event"><i class="fa-solid fa-location-dot"></i> 2105 Badger Pond
+                                    Lane,
+                                    FL - USA</div>
+                                <div class="Slogan">Varida Meronny music band</div>
+                            </div>
+                            <div class="participant-events">
+                                <div class="image-participant">
+                                    <img class="pic" src="images/thumb-3.jpg" alt="Not found">
+                                    <img class="pic a" src="images/thumb-2.jpg" alt="Not found">
+                                    <img class="pic b" src="images/thumb.jpg" alt="Not found">
+                                    <div class="count-events">40+</div>
+                                </div>
+                                <div class="btn">
+                                    <button>Join Event</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-    <div class="list-song1">
-                <div class="right-recent">
-                    <lable class="span-recent" style="color:dodgerblue">Rencent</lable>&ensp;
-                    <lable>Trending</lable>&ensp;
-                    <lable>International</lable>&ensp;
-                    <hr>
-    <div class="song">
-        <div class="img-music">
-            <img src="images/2.jpg" width="50px">
-        </div>
-        <div class="title-music">
-            <span class="bold-title">Shack your butty</span><br>
-            Gerrina Linda
-        </div>
-        <div class="iconA">
-                <ul>
-                    <li><i class='fas fa-crown'
-                            style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%; width:10%;height: 20%;"></i>
-                    </li>
-                    <li class="icon-color"> <i class="far fa-heart"></i></li>
-                    <li class="icon-color"> 04:20</li>
-                    <li style="color: #565554;font-size: 1vw;"><b>...</b></li>
-                </ul>
-        </div>
-    </div>
-    <div class="song">
-        <div class="img-music">
-            <img src="images/4.jpg" width="50px">
-        </div>
-        <div class="title-music">
-            <span class="bold-title">Say yes</span><br>
-            Johnny Marro
-        </div>
-        <div class="iconA" style="text-align:right">
-            <ul>
-                <li class="icon-color"> <i class="far fa-heart"></i></li>
-                <li class="icon-color"> 04:20</li>
-                <li style="color: #565554;font-size: 1vw;"><b>...</b></li>
-            </ul>
-        </div>
-    </div>
-    <div class="song">
-        <div class="img-music">
-            <img src="images/1.jpg" width="50px">
-        </div>
-        <div class="title-music">
-            <span class="bold-title">Hey not me</span><br>
-            Rasomi Pelina
-        </div>
-        <div class="iconA" style="text-align:right">
-            <ul>
-                <li class="icon-color"> <i class="far fa-heart"></i></li>
-                <li class="icon-color"> 04:20</li>
-                <li style="color: #565554;font-size: 1vw;"><b>...</b></li>
-            </ul>
-        </div>
-    </div>
-    <div class="song">
-        <div class="img-music">
-            <img src="images/6.jpg" width="50px">
-        </div>
-        <div class="title-music">
-            <span class="bold-title">Sadness inside</span><br>
-            Karen jennings
-        </div>
-        <div class="iconA">
-            <ul>
-                <li><i class='fas fa-crown'
-                        style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%; width:10%;height: 20%;"></i>
-                </li>
-                <li class="icon-color"> <i class="far fa-heart"></i></li>
-                <li class="icon-color"> 04:20</li>
-                <li style="color: #565554;font-size: 1vw;"><b>...</b></li>
-            </ul>
-
-        </div>
-    </div>
-    <div class="song">
-        <div class="img-music">
-            <img src="images/10.jpg" width="50px">
-        </div>
-        <div class="title-music">
-            <span class="bold-title">Nothing like your eyes</span><br>
-            Nutty Nina
-        </div>
-        <div class="iconA">
-            <ul>
-                <li><i class='fas fa-crown'
-                        style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%; width:10%;height: 20%;"></i></li>
-                <li class="icon-color"> <i class="far fa-heart"></i></li>
-                <li class="icon-color"> 04:20</li>
-                <li style="color: #565554;font-size: 1vw;"><b>...</b></li>
-            </ul>
-        </div>
-    </div>
+                    <div class="swiper-pagination">
+                        <span class="swiper-pagination-bullet active"></span>
+                        <span class="swiper-pagination-bullet"></span>
+                    </div>
+                </div>
+                <div class="right-events">
+                    <div class="tittle">
+                        <ul>
+                            <li id="recent" class="tablink" onclick="changnavbar('recent-body','recent')">Recent</li>
+                            <li id="trending" class="tablink" onclick="changnavbar('trending-body','trending')">Trending
+                            </li>
+                            <li id="international" class="tablink"
+                                onclick="changnavbar('international-body','international')">International</li>
+                        </ul>
+                    </div>
+                    <div id="recent-body" class="recent">
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/2.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Shack your butty</div>
+                                    <div class="singer-song">Gerrina Linda</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>03:24</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/4.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Say yes</div>
+                                    <div class="singer-song">Johnny Marro</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li></li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>04:20</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/1.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Hey not me</div>
+                                    <div class="singer-song">Rasomi Pelina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li></li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>01:12</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/6.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Sadness inside</div>
+                                    <div class="singer-song">Karen jennings</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>02:37</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/10.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Nothing like your eyes</div>
+                                    <div class="singer-song">Nutty Nina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>03:54</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="trending-body" class="recent">
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/1.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Shack your butty</div>
+                                    <div class="singer-song">Gerrina Linda</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>03:24</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/3.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Say yes</div>
+                                    <div class="singer-song">Johnny Marro</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li></li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>04:20</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/10.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Hey not me</div>
+                                    <div class="singer-song">Rasomi Pelina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li></li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>01:12</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/8.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Sadness inside</div>
+                                    <div class="singer-song">Karen jennings</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>02:37</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/10.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Nothing like your eyes</div>
+                                    <div class="singer-song">Nutty Nina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>03:54</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="international-body" class="recent">
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/2.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Shack your butty</div>
+                                    <div class="singer-song">Gerrina Linda</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>03:24</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/4.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Say yes</div>
+                                    <div class="singer-song">Johnny Marro</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li></li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>04:20</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/1.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Hey not me</div>
+                                    <div class="singer-song">Rasomi Pelina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li></li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>01:12</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/6.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Sadness inside</div>
+                                    <div class="singer-song">Karen jennings</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>02:37</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/10.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Nothing like your eyes</div>
+                                    <div class="singer-song">Nutty Nina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li>03:54</li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="feature-artists">
@@ -282,276 +468,247 @@
                         <div class="view-all"><a href="https://mp3.zing.vn/">View All</a></div>
                         <br style="clear: both;">
                     </div>
-    
+
                     <div class="cols1">
                         <div class="cols1 infor-music1">
-                            <img class="music-image1" src="images/1.jpg" alt="pic1"> 
+                            <img class="music-image1" src="images/1.jpg" alt="pic1">
                             <!-- <div class="music-name1">I love you mummy</div> -->
                             <div class="music-singer1">Arebica Luna</div>
                         </div>
                         <div class="cols1 infor-music1">
-                            <img  class="music-image1" src="images/2.jpg" alt="pic2"><br>
+                            <img class="music-image1" src="images/2.jpg" alt="pic2"><br>
                             <!-- <div class="music-name1">Shack your butty</div> -->
                             <div class="music-singer1">Gerrina Linda</div>
                         </div>
                         <div class="cols1 infor-music1">
-                            <img  class="music-image1" src="images/3.jpg" alt="pic3">
+                            <img class="music-image1" src="images/3.jpg" alt="pic3">
                             <!-- <div class="music-name1">Do it your way(Female)</div> -->
                             <div class="music-singer1">Zunira Wily, Nutty Nina</div>
                         </div>
                         <div class="cols1 infor-music1">
-                            <img  class="music-image1" src="images/4.jpg" alt="pic4">
+                            <img class="music-image1" src="images/4.jpg" alt="pic4">
                             <!-- <div class="music-name1">Say yes</div> -->
                             <div class="music-singer1">Johnny Marro</div>
                         </div>
                         <div class="cols1 infor-music1">
-                            <img  class="music-image1" src="images/5.jpg" alt="pic5">
+                            <img class="music-image1" src="images/5.jpg" alt="pic5">
                             <!-- <div class="music-name1">Where is your letter</div> -->
                             <div class="music-singer1">Jina Moore, Lenisa Gory</div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-pagination">
-                    <span class="swiper-pagination-bullet"></span>
-                    <span class="swiper-pagination-bullet1" style="margin-left: 35px;"></span>
-                    <span class="swiper-pagination-bullet1"></span>
+                    <span class="swiper-pagination-bullet active" onclick=""></span>
+                    <span class="swiper-pagination-bullet" onclick=""></span>
+                    <span class="swiper-pagination-bullet" onclick=""></span>
                 </div>
             </div>
-            <div class="top-alb">
+            <div class="top-albums">
                 <div class="title">
-                    <lable style="width:10%;color:#565554">TRENDING TO LISTEN</lable>
+                    <lable style="font-size: 0.7rem;color:#565554;margin-bottom: 1rem;">TRENDING TO LISTEN</lable>
                     <div class="big-title">
                         <h1>Top <span class="span-ablums" style="color:dodgerblue">Albums</span></h1>
                         <span class="span-view">VIEW ALL</span>
                     </div>
                 </div>
-                <div class="top-alb">
-                    <div class="list-firts-song2">
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>1</lable>
-                                <img src="images/1.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Mummy</span><br>
-                                Arebica Luna
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
+                <div class="cols">
+                    <div class="recents">
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/1.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Shack your butty</div>
+                                    <div class="singer-song">Gerrina Linda</div>
                                 </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>2</lable>
-                                <img src="images/2.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Hot shot</span><br>
-                                Gerrina Linda
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/2.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Say yes</div>
+                                    <div class="singer-song">Johnny Marro</div>
                                 </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>3</lable>
-                                <img src="images/3.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Own way</span><br>
-                                Zunira Willy & Nutty Nina
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/3.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Hey not me</div>
+                                    <div class="singer-song">Rasomi Pelina</div>
                                 </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>4</lable>
-                                <img src="images/4.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Say yes</span><br>
-                                Johnny Marro
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/4.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Sadness inside</div>
+                                    <div class="singer-song">Karen jennings</div>
                                 </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>5</lable>
-                                <img src="images/5.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Letter</span><br>
-                                Lina Moore & Lenisa Gory
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/5.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Nothing like your eyes</div>
+                                    <div class="singer-song">Nutty Nina</div>
                                 </div>
                             </div>
-                        </div>
-                    
-                </div>
-                    <div class="list-second-song2">
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>6</lable>
-                                <img src="images/6.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Find soul</span><br>
-                                Rasomi pelina
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>7</lable>
-                                <img src="images/7.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Deep inside</span><br>
-                                Pimila Holliwy
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>8</lable>
-                                <img src="images/8.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Sadness</span><br>
-                                Karen Jennings
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>9</lable>
-                                <img src="images/9.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Electric wave</span><br>
-                                Lenisa Gory
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="song2">
-                            <div class="img-music">
-                                <lable>10</lable>
-                                <img src="images/10.jpg" width="50px">
-                            </div>
-                            <div class="title-music">
-                                <span class="bold-title">Lover soul</span><br>
-                                Nutty Nina
-                            </div>
-                            <div class="iconA">
-                                <div class="position-icon">
-                                    <ul>
-                                        <li><i class='fas fa-crown'
-                                                style="font-size: 12px;color:aliceblue; background-color: rgba(0,222,227,255); border-radius:200%;"></i>
-                                        </li>
-                                        <li class="icon-color"> <i class="far fa-heart"></i></li>
-                                        <li><b>...</b></li>
-                                    </ul>
-                                </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-            </div>
-            <footer>
-                <div class="email">info@listenapp</div>
-                <div class="btn">
-                    <button class="ggplay"><i class="fa-brands fa-google-play"></i>Google Play</button>
-                    <button class="appstore"><i class="fa-brands fa-app-store"></i>App Store</button>
+                    <div class="recents">
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/1.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Shack your butty</div>
+                                    <div class="singer-song">Gerrina Linda</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/2.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Say yes</div>
+                                    <div class="singer-song">Johnny Marro</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/3.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Hey not me</div>
+                                    <div class="singer-song">Rasomi Pelina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/4.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Sadness inside</div>
+                                    <div class="singer-song">Karen jennings</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="song">
+                                <div class="image-song"><img src="images/5.jpg" alt="Not found"></div>
+                                <div class="info-song">
+                                    <div class="name-song">Nothing like your eyes</div>
+                                    <div class="singer-song">Nutty Nina</div>
+                                </div>
+                            </div>
+                            <div class="type">
+                                <ul>
+                                    <li><i class="fa-solid fa-crown"
+                                            style="background-color: aqua; color: white;border-radius:40px;font-size: 13px; padding: 4px"></i>
+                                    </li>
+                                    <li><i class="fa-regular fa-heart"></i></li>
+                                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-        </footer>
+        </div>
     </section>
+    <footer>
+        <div id="footer-info">
+            <div class="email">info@listenapp</div>
+        <div class="btn">
+            <button class="ggplay"><i class="fa-brands fa-google-play"></i>Google Play</button>
+            <button class="appstore"><i class="fa-brands fa-app-store"></i>App Store</button>
+        </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
